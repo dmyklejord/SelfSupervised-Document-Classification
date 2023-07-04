@@ -22,4 +22,4 @@ T-SNE (t-Distributed Stochastic Neighbor Embedding) is a dimensionality reductio
 
 The T-SNE visualization of SimCLR is shown below. The classes are fairly well clustered. This indicates that the embedded space is sufficently differentated for downstream tasks. 
 
-<iframe src="SimCLR_0.0001LR_InteractiveTSNE.html" width="100%" height="500px"></iframe>
+<object src="SimCLR_0.0001LR_InteractiveTSNE.html" width="100%" height="500px"></object>
