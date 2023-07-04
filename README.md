@@ -4,7 +4,7 @@ Leveraging Self-Supervised learning to classify document scans.
 | SimCLR |
 | :---: | 
 | ![SimCLR](ReadmeImages/Screenshot%202023-03-03%20at%204.19.39%20PM.png) |
-\* *Figures are from its paper, SimCLR*
+\* *Figure is from its paper, SimCLR*
 
 ## What this script does
 SimCLR is the simplest image-based self-supervised pretraining framework. It's not necessessarily the best, but is certainly elegant, easy to implement, and effective. This script investigates the how well the SimCLR algorithm performs on classifying document scans. 
