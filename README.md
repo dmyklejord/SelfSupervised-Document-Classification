@@ -1,4 +1,4 @@
-# SelfSupervised_Document_Classification
+# SelfSupervised Document Classification
 Leveraging Self-Supervised learning to classify document scans.
 
 | SimCLR |
