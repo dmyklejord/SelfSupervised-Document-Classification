@@ -24,6 +24,8 @@ The T-SNE visualization of SimCLR is shown below. The classes are fairly well cl
 
 ![SimCLRTsne](SimCLR_0.0001LR_TSNE.png)
 
+Open *SimCLR_0.0001LR_InteractiveTSNE.html* in a browser for an interactive T-sne.
+
 ## How to run:
 The script was made to run locally on Apple M-series GPU/MPS, but will check and use CUDA if available. Will fall back to running on CPU (but it'll take forever). It's a significant speed-up running on MPS vs CPU. **To run on MPS, make sure your version of Pytorch supports this.** At the time of this writing, this was only available with the nightly version of Pytorch:
 
@@ -64,6 +66,7 @@ data/
 ## Using for unlabeled data: 
 You can use kmeans on the embedded space. Adjust K for the number of classes you expect your data to have. You can use the T-SNE visualization to get a feel for it.
 
+This function is in *helper_evaluate*: 
 ```python
 def kmeans_classifier(test_X, k=10):
     from sklearn.cluster import KMeans
